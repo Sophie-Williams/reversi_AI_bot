@@ -15,7 +15,7 @@ We have developed a heuristic which is a function of three parameters.
 
 Heuristic Value = F (Cell Utility Value, Disk Parity, Mobility)
 
-1) Cell Utility Value: Every cell (square) is assigned a value depending upon the stability of the disks placed on that square. For example, Corners are given the highest value because once captured, they cannot be flanked by the opponent. The cells adjacent to corners have negative values as they can be flanked easily if the other player occupies corner. Individual cell utility values are assigned as below:
+1) Cell Utility Value: Every cell (square) is assigned a value depending upon the stability of the disks placed on that square. For example, Corners are given the highest value because once captured, they cannot be flanked by the opponent. The cells adjacent to corners have negative values as they can be flanked easily if the other player occupies corner. Individual cell utility values are assigned as below(left to right, top to bottom):
 
 25	-5	14	10	10	14	-5	25
 -5	-7	-4	1	1	-4	-7	-5
